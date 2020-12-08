@@ -1,0 +1,36 @@
+{
+  "name": "set",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "jest --coverage",
+    "build": "babel src -d dist",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daria-chizh/Set.git"
+  },
+  "author": "daria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daria-chizh/Set/issues"
+  },
+  "homepage": "https://github.com/Daria-chizh/Set#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.3",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "core-js": "^3.8.1"
+  }
+}
